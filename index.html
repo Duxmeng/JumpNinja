@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>忍者跳跃</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        canvas{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* border:1px dashed darksalmon; */
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="800px" height="583px"></canvas>
+    <audio src="audio/bg.mp3" id="audio" autoplay = "autoplay" loop></audio>
+    <audio src="audio/f.mp3" id="darts"></audio>
+    <audio src="audio/p.mp3" id="close"></audio>
+    <audio src="audio/out.mp3" id="out"></audio>
+    <audio src="audio/sc.mp3" id="sc"></audio>
+</body>
+</html>
+<script src="js/underscore.min.js"></script>
+<script src="js/Game.js"></script>
+<script src="js/Bg.js"></script>
+<script src="js/Trampoline.js"></script>
+<script src="js/Ninja.js"></script>
+<script src="js/Heart.js"></script>
+<script src="js/Shield.js"></script>
+<script src="js/Darts.js"></script>
+<script src="js/Coin.js"></script>
+<script src="js/Eight.js"></script>
+<script src="js/Bird.js"></script>
+<script src="js/Time.js"></script>
+<script>
+    var game = new Game;
+</script>
